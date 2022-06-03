@@ -24,7 +24,7 @@ if __name__ == '__main__':
     pp = ParagraphPrinter()
     walker.register_processor(pp)
     try:
-        for i in range(1000):
+        for i in range(10000):
             print(i)
             walker.step()
     finally:

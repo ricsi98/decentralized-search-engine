@@ -1,0 +1,1 @@
+python -m pyserini.index.lucene --collection JsonCollection --input output --index index --threads 1 --generator DefaultLuceneDocumentGenerator --storePositions --storeDocvectors --pretokenized
